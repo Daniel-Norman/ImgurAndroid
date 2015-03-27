@@ -11,7 +11,7 @@ public class ImageDownloader extends AsyncTask<String, Void, Boolean> {
     private Bitmap mBitmap;
 
     //The minimum required height and width
-    private final static int REQUIRED_WIDTH = 102, REQUIRED_HEIGHT = 102;
+    private final static int REQUIRED_WIDTH = 1000, REQUIRED_HEIGHT = 1000;
 
     @Override
     public Boolean doInBackground(String... params) {
