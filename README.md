@@ -1,5 +1,5 @@
 # ImgurAndroid
-Helper classes **ImgurUploader** for uploading an image to Imgur and **ImageDownloader** for downloading a remote image, and an example activity **MainActivity** for using the classes.
+Imgur helper classes for Android for image uploading without account login and image downloading.
 
 ## Installation
 Download the **httpcore** and **httpmime** jar files from Apache, and add them to your project's libs folder.
