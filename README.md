@@ -26,4 +26,4 @@ android {
 
 Next, [register an application with Imgur](https://api.imgur.com/oauth2/addclient) and get a Client ID for the application. Replace the _CLIENT_ID_ String in ImgurUploader.java with your Client ID.
 
-You are good to go! Feel free to change the compression quality in ImgurUploader.java to trade off faster uploading and smaller sizes for lower quality images, and change the required image sizes in ImageDownloader.java to allow the class to avoid downloading excessively large images.
+You are good to go! Feel free to change the compression quality in _MainActivity.java_ to trade off faster uploading and smaller sizes for lower quality images, and change the required image sizes in _ImageDownloader.java_ to allow the class to avoid downloading excessively large images.
