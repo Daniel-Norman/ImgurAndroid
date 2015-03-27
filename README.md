@@ -1,8 +1,8 @@
 # ImgurAndroid
-Helper classes *ImgurUploader* for uploading an image to Imgur and *ImageDownloader* for downloading a remote image, and an example activity *MainActivity* for using the classes.
+Helper classes **ImgurUploader** for uploading an image to Imgur and **ImageDownloader** for downloading a remote image, and an example activity **MainActivity** for using the classes.
 
 ## Installation
-Download the *httpcore* and *httpmime* jar files from Apache, and add them to your project's libs folder.
+Download the **httpcore** and **httpmime** jar files from Apache, and add them to your project's libs folder.
 
 Add the following lines to your app's build.gradle file:
 ```
@@ -26,4 +26,4 @@ android {
 
 Next, [register an application with Imgur](https://api.imgur.com/oauth2/addclient) and get a Client ID for the application. Replace the _CLIENT_ID_ String in ImgurUploader.java with your Client ID.
 
-You are good to go! Feel free to change the compression quality in *MainActivity.java* to trade off faster uploading and smaller sizes for lower quality images, and change the required image sizes in *ImageDownloader.java* to allow the class to avoid downloading excessively large images.
+You are good to go! Feel free to change the compression quality in **MainActivity.java** to trade off faster uploading and smaller sizes for lower quality images, and change the required image sizes in **ImageDownloader.java** to allow the class to avoid downloading excessively large images.
